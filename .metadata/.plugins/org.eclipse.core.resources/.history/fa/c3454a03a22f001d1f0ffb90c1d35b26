@@ -1,0 +1,23 @@
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/UsartHardware.h"
+
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/Types.h"
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/UsartConfigurator.h"
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/UsartPutChar.h"
+
+void UsartHardware_Init(uint8 baudRateRegisterSetting)
+{
+  Usart_ConfigureUsartIO();
+  Usart_EnablePeripheralClock();
+  Usart_Reset();
+  Usart_ConfigureMode();
+  Usart_SetBaudRateRegister(baudRateRegisterSetting);
+  Usart_Enable();
+}
+
+void UsartHardware_TransmitString(char* data)
+{
+  while(*data != NULL)
+  {
+    Usart_PutChar(*data++);
+  }
+}

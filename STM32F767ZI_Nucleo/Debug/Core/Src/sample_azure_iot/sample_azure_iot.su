@@ -1,0 +1,8 @@
+../Core/Src/sample_azure_iot/sample_azure_iot.c:203:13:prvHandleCloudMessage	16	static
+../Core/Src/sample_azure_iot/sample_azure_iot.c:217:13:prvHandleCommand	32	static
+../Core/Src/sample_azure_iot/sample_azure_iot.c:237:13:prvHandlePropertiesMessage	16	static
+../Core/Src/sample_azure_iot/sample_azure_iot.c:269:17:prvSetupNetworkCredentials	16	static
+../Core/Src/sample_azure_iot/sample_azure_iot.c:290:13:prvAzureDemoTask	280	static,ignoring_inline_asm
+../Core/Src/sample_azure_iot/sample_azure_iot.c:478:21:prvIoTHubInfoGet	120	static,ignoring_inline_asm
+../Core/Src/sample_azure_iot/sample_azure_iot.c:574:17:prvConnectToServerWithBackoffRetries	56	static
+../Core/Src/sample_azure_iot/sample_azure_iot.c:634:6:vStartDemoTask	16	static

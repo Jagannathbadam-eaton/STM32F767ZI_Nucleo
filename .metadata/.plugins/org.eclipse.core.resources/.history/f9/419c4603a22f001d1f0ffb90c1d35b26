@@ -1,0 +1,26 @@
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/Executor.h"
+
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/AdcConductor.h"
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/IntrinsicsWrapper.h"
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/Model.h"
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/TimerConductor.h"
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/Types.h"
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/UsartConductor.h"
+
+
+void Executor_Init(void)
+{
+  Model_Init();
+  UsartConductor_Init();
+  AdcConductor_Init();
+  TimerConductor_Init();
+  Interrupt_Enable();
+}
+
+bool Executor_Run(void)
+{
+  UsartConductor_Run();
+  TimerConductor_Run();
+  AdcConductor_Run();
+  return TRUE;
+}

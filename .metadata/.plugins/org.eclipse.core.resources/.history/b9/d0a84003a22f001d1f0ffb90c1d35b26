@@ -1,0 +1,17 @@
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/make_example/src/foo.h"
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/vendor/unity/src/unity.h"
+
+void setUp(void)
+{
+}
+
+void tearDown(void)
+{
+}
+
+void test_foo_init_should_initialize_multiplier()
+{
+    foo_init();
+
+    TEST_ASSERT_FALSE(1);
+}

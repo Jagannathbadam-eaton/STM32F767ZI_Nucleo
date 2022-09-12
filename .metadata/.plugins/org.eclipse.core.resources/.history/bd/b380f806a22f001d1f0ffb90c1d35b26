@@ -1,0 +1,3 @@
+/* ocsp.h for libcurl */
+
+#include "../../../../../../External/FreeRTOS-Plus/ThirdParty/wolfSSL/wolfssl/openssl/ocsp.h"

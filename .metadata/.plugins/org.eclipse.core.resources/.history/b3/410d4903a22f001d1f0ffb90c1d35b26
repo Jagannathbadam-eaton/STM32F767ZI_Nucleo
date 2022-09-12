@@ -1,0 +1,8 @@
+#ifndef _TIMERHARDWARE_H
+#define _TIMERHARDWARE_H
+
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/Types.h"
+
+void TimerHardware_Init(void);
+
+#endif // _TIMERHARDWARE_H

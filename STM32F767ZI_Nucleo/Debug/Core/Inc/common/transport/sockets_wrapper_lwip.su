@@ -1,0 +1,11 @@
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:58:13:lwip_dns_found_callback	32	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:75:10:prvGetHostByName	40	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:130:12:Sockets_Init	4	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:136:12:Sockets_DeInit	4	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:142:14:Sockets_Open	16	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:160:12:Sockets_Close	16	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:166:12:Sockets_Connect	56	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:195:6:Sockets_Disconnect	16	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:201:12:Sockets_Recv	32	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:242:12:Sockets_Send	24	static
+../Core/Inc/common/transport/sockets_wrapper_lwip.c:253:12:Sockets_SetSockOpt	72	static

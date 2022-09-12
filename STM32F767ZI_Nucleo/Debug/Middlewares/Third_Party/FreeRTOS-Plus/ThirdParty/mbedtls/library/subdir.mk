@@ -1,0 +1,294 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aes.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aesni.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/arc4.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aria.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1parse.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1write.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/base64.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/bignum.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/blowfish.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/camellia.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ccm.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/certs.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chacha20.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chachapoly.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher_wrap.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cmac.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ctr_drbg.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/debug.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/des.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/dhm.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdh.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdsa.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecjpake.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp_curves.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy_poll.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/error.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/gcm.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/havege.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hkdf.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hmac_drbg.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md2.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md4.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md5.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/memory_buffer_alloc.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/net_sockets.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/nist_kw.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/oid.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/padlock.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pem.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk_wrap.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs11.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs12.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs5.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkparse.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkwrite.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform_util.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/poly1305.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_client.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_driver_wrappers.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_ecp.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_rsa.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_se.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_slot_management.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_storage.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_its_file.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ripemd160.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa_internal.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha1.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha256.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha512.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cache.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ciphersuites.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cli.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cookie.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_msg.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_srv.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ticket.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls13_keys.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/threading.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/timing.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version_features.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_create.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crl.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crt.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_csr.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_crt.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_csr.c \
+../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/xtea.c 
+
+OBJS += \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aes.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aesni.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/arc4.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aria.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1parse.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1write.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/base64.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/bignum.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/blowfish.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/camellia.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ccm.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/certs.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chacha20.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chachapoly.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher_wrap.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cmac.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ctr_drbg.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/debug.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/des.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/dhm.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdh.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdsa.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecjpake.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp_curves.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy_poll.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/error.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/gcm.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/havege.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hkdf.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hmac_drbg.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md2.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md4.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md5.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/memory_buffer_alloc.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/net_sockets.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/nist_kw.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/oid.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/padlock.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pem.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk_wrap.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs11.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs12.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs5.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkparse.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkwrite.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform_util.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/poly1305.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_client.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_driver_wrappers.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_ecp.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_rsa.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_se.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_slot_management.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_storage.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_its_file.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ripemd160.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa_internal.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha1.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha256.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha512.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cache.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ciphersuites.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cli.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cookie.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_msg.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_srv.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ticket.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls13_keys.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/threading.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/timing.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version_features.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_create.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crl.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crt.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_csr.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_crt.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_csr.o \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/xtea.o 
+
+C_DEPS += \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aes.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aesni.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/arc4.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aria.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1parse.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1write.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/base64.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/bignum.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/blowfish.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/camellia.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ccm.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/certs.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chacha20.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chachapoly.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher_wrap.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cmac.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ctr_drbg.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/debug.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/des.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/dhm.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdh.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdsa.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecjpake.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp_curves.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy_poll.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/error.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/gcm.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/havege.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hkdf.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hmac_drbg.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md2.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md4.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md5.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/memory_buffer_alloc.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/net_sockets.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/nist_kw.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/oid.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/padlock.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pem.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk_wrap.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs11.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs12.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs5.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkparse.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkwrite.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform_util.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/poly1305.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_client.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_driver_wrappers.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_ecp.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_rsa.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_se.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_slot_management.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_storage.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_its_file.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ripemd160.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa_internal.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha1.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha256.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha512.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cache.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ciphersuites.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cli.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cookie.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_msg.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_srv.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ticket.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls13_keys.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/threading.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/timing.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version_features.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_create.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crl.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crt.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_csr.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_crt.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_csr.d \
+./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/xtea.d 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/%.o Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/%.su: ../Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/%.c Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I../LWIP/App -I../LWIP/Target -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/lwip/apps -I../Middlewares/Third_Party/LwIP/src/include/lwip/priv -I../Middlewares/Third_Party/LwIP/src/include/lwip/prot -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/src/include/compat/posix -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/net -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys -I../Middlewares/Third_Party/LwIP/src/include/compat/stdc -I../Middlewares/Third_Party/LwIP/system/arch -I"D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include" -I"D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source" -I"D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc" -I"D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/src" -I"D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/WolfSSL-FIPS-Ready/wolfssl" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-Middlewares-2f-Third_Party-2f-FreeRTOS-2d-Plus-2f-ThirdParty-2f-mbedtls-2f-library
+
+clean-Middlewares-2f-Third_Party-2f-FreeRTOS-2d-Plus-2f-ThirdParty-2f-mbedtls-2f-library:
+	-$(RM) ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aes.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aes.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aes.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aesni.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aesni.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aesni.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/arc4.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/arc4.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/arc4.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aria.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aria.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/aria.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1parse.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1parse.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1parse.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1write.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1write.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/asn1write.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/base64.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/base64.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/base64.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/bignum.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/bignum.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/bignum.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/blowfish.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/blowfish.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/blowfish.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/camellia.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/camellia.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/camellia.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ccm.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ccm.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ccm.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/certs.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/certs.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/certs.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chacha20.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chacha20.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chacha20.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chachapoly.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chachapoly.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/chachapoly.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher_wrap.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher_wrap.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cipher_wrap.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cmac.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cmac.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/cmac.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ctr_drbg.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ctr_drbg.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ctr_drbg.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/debug.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/debug.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/debug.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/des.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/des.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/des.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/dhm.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/dhm.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/dhm.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdh.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdh.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdh.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdsa.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdsa.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecdsa.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecjpake.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecjpake.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecjpake.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp_curves.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp_curves.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ecp_curves.su
+	-$(RM) ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy_poll.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy_poll.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/entropy_poll.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/error.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/error.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/error.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/gcm.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/gcm.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/gcm.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/havege.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/havege.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/havege.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hkdf.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hkdf.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hkdf.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hmac_drbg.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hmac_drbg.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/hmac_drbg.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md2.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md2.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md2.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md4.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md4.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md4.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md5.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md5.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/md5.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/memory_buffer_alloc.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/memory_buffer_alloc.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/memory_buffer_alloc.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/net_sockets.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/net_sockets.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/net_sockets.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/nist_kw.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/nist_kw.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/nist_kw.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/oid.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/oid.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/oid.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/padlock.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/padlock.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/padlock.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pem.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pem.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pem.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk_wrap.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk_wrap.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pk_wrap.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs11.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs11.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs11.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs12.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs12.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs12.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs5.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs5.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkcs5.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkparse.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkparse.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkparse.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkwrite.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkwrite.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/pkwrite.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform_util.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform_util.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/platform_util.su
+	-$(RM) ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/poly1305.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/poly1305.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/poly1305.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_client.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_client.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_client.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_driver_wrappers.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_driver_wrappers.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_driver_wrappers.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_ecp.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_ecp.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_ecp.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_rsa.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_rsa.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_rsa.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_se.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_se.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_se.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_slot_management.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_slot_management.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_slot_management.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_storage.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_storage.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_crypto_storage.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_its_file.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_its_file.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/psa_its_file.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ripemd160.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ripemd160.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ripemd160.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa_internal.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa_internal.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/rsa_internal.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha1.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha1.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha1.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha256.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha256.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha256.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha512.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha512.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/sha512.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cache.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cache.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cache.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ciphersuites.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ciphersuites.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ciphersuites.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cli.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cli.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cli.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cookie.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cookie.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_cookie.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_msg.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_msg.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_msg.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_srv.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_srv.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_srv.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ticket.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ticket.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_ticket.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls13_keys.d
+	-$(RM) ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls13_keys.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/ssl_tls13_keys.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/threading.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/threading.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/threading.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/timing.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/timing.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/timing.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version_features.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version_features.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/version_features.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_create.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_create.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_create.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crl.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crl.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crl.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crt.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crt.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_crt.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_csr.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_csr.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509_csr.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_crt.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_crt.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_crt.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_csr.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_csr.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/x509write_csr.su ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/xtea.d ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/xtea.o ./Middlewares/Third_Party/FreeRTOS-Plus/ThirdParty/mbedtls/library/xtea.su
+
+.PHONY: clean-Middlewares-2f-Third_Party-2f-FreeRTOS-2d-Plus-2f-ThirdParty-2f-mbedtls-2f-library
+

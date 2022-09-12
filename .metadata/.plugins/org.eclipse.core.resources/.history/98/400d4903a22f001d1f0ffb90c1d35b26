@@ -1,0 +1,16 @@
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/TimerHardware.h"
+
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/TimerConfigurator.h"
+#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/Types.h"
+
+void TimerHardware_Init(void)
+{
+  Timer_EnablePeripheralClocks();
+  Timer_Reset();
+  Timer_ConfigureMode();
+  Timer_ConfigurePeriod();
+  Timer_EnableOutputPin();
+  Timer_Enable();
+  Timer_ConfigureInterruptHandler();
+  Timer_Start();
+}

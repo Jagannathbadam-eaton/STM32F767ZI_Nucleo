@@ -1,0 +1,35 @@
+/* Standard includes. */
+#include <stdint.h>
+
+/* FreeRTOS includes. */
+#include "../../../../../../../../External/FreeRTOS/Source/include/FreeRTOS.h"
+#include "../../../../../../../../External/FreeRTOS/Source/include/FreeRTOS_IP.h"
+#include "../../../../../../../../External/FreeRTOS/Source/include/FreeRTOS_Sockets.h"
+#include "../../../../../../../../External/FreeRTOS/Source/include/semphr.h"
+#include "../../../../../../../../External/FreeRTOS/Source/include/task.h"
+#include "../../../../../../../../External/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/include/FreeRTOS_ARP.h"
+#include "../../../../../../../../External/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/include/FreeRTOS_DHCP.h"
+#include "../../../../../../../../External/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/include/FreeRTOS_IP_Private.h"
+#include "../../../../../../../../External/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/include/FreeRTOS_UDP_IP.h"
+
+
+/****************************************************************
+* Signature of function under test
+****************************************************************/
+
+BaseType_t prvProcessDHCPReplies( BaseType_t xExpectedMessageType );
+
+/****************************************************************
+* The proof for FreeRTOS_gethostbyname.
+****************************************************************/
+
+void harness()
+{
+    /* Omitting model of an unconstrained xDHCPData because xDHCPData is */
+    /* the source of uninitialized data only on line 647 to set a */
+    /* transaction id is an outgoing message */
+
+    BaseType_t xExpectedMessageType;
+
+    prvProcessDHCPReplies( xExpectedMessageType );
+}

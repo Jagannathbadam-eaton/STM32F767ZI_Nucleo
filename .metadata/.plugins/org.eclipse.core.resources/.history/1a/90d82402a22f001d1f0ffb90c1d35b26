@@ -1,0 +1,13 @@
+/* FreeRTOS includes. */
+#include "../../../../../../../../../External/FreeRTOS/Source/include/FreeRTOS.h"
+#include "../../../../../../../../../External/FreeRTOS/Source/include/FreeRTOS_IP.h"
+#include "../../../../../../../../../External/FreeRTOS/Source/include/queue.h"
+#include "../../../../../../../../../External/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/include/FreeRTOS_ARP.h"
+#include "../../../../../../../../../External/FreeRTOS-Plus/Source/FreeRTOS-Plus-TCP/include/FreeRTOS_IP_Private.h"
+
+void harness()
+{
+    ARPPacket_t xARPFrame;
+
+    eARPProcessPacket( &xARPFrame );
+}
