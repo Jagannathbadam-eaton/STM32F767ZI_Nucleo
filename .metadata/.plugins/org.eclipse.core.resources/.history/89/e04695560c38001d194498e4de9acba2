@@ -633,10 +633,6 @@ static uint32_t prvConnectToServerWithBackoffRetries( const char * pcHostName,
  */
 void vStartDemoTask( void )
 {
-	printf("Entered into StartDemoTask");
-	LogInfo( ( "PRV Misc Initialization started"));
-	configPRINTF( ( "---------Inside STARTING DEMO---------\r\n" ) );
-
     /* This example uses a single application task, which in turn is used to
      * connect, subscribe, publish, unsubscribe and disconnect from the IoT Hub */
     xTaskCreate( prvAzureDemoTask,         /* Function that implements the task. */
@@ -645,6 +641,5 @@ void vStartDemoTask( void )
                  NULL,                     /* Task parameter - not used in this case. */
                  tskIDLE_PRIORITY,         /* Task priority, must be between 0 and configMAX_PRIORITIES - 1. */
                  NULL );                   /* Used to pass out a handle to the created task - not used in this case. */
-	printf("Ended  StartDemoTask");
 }
 /*-----------------------------------------------------------*/

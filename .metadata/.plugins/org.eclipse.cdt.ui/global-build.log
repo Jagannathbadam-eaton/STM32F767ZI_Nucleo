@@ -1581,3 +1581,315 @@ Finished building: STM32F767ZI_Nucleo.bin
  
 Finished building: STM32F767ZI_Nucleo.list
  
+16:41:50 **** Incremental Build of configuration Debug for project STM32F767ZI_Nucleo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I../LWIP/App -I../LWIP/Target -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/lwip/apps -I../Middlewares/Third_Party/LwIP/src/include/lwip/priv -I../Middlewares/Third_Party/LwIP/src/include/lwip/prot -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/src/include/compat/posix -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/net -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys -I../Middlewares/Third_Party/LwIP/src/include/compat/stdc -I../Middlewares/Third_Party/LwIP/system/arch -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include" -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source" -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc" -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Inc/main.h:54,
+                 from ../Core/Src/main.c:21:
+../Core/Inc/logging_stack.h:82: warning: "SdkLog" redefined
+   82 |     #define SdkLog( string )    printf string
+      | 
+In file included from ../Core/Src/main.c:21:
+../Core/Inc/main.h:51: note: this is the location of the previous definition
+   51 |     #define SdkLog( message )    vLoggingPrintf message
+      | 
+../Core/Src/main.c: In function 'uxRand':
+../Core/Src/main.c:161:23: warning: unused variable 'status' [-Wunused-variable]
+  161 |     HAL_StatusTypeDef status = HAL_OK;
+      |                       ^~~~~~
+../Core/Src/main.c: In function 'prvInitializeHeap':
+../Core/Src/main.c:254:18: warning: unused variable 'xHeapRegions' [-Wunused-variable]
+  254 |     HeapRegion_t xHeapRegions[] =
+      |                  ^~~~~~~~~~~~
+At top level:
+../Core/Src/main.c:436:13: warning: 'MX_USB_OTG_FS_PCD_Init' defined but not used [-Wunused-function]
+  436 | static void MX_USB_OTG_FS_PCD_Init(void)
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "STM32F767ZI_Nucleo.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Newdevice\STM32F767ZI_Nucleo\STM32F767ZI_Nucleo\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F767ZI_Nucleo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F767ZI_Nucleo.elf
+ 
+arm-none-eabi-size   STM32F767ZI_Nucleo.elf 
+arm-none-eabi-objdump -h -S  STM32F767ZI_Nucleo.elf  > "STM32F767ZI_Nucleo.list"
+arm-none-eabi-objcopy  -O binary  STM32F767ZI_Nucleo.elf  "STM32F767ZI_Nucleo.bin"
+   text	   data	    bss	    dec	    hex	filename
+  24176	    124	  43796	  68096	  10a00	STM32F767ZI_Nucleo.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F767ZI_Nucleo.bin
+ 
+Finished building: STM32F767ZI_Nucleo.list
+ 
+16:48:04 **** Incremental Build of configuration Debug for project STM32F767ZI_Nucleo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/sample_azure_iot/sample_azure_iot.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I../LWIP/App -I../LWIP/Target -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/lwip/apps -I../Middlewares/Third_Party/LwIP/src/include/lwip/priv -I../Middlewares/Third_Party/LwIP/src/include/lwip/prot -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/src/include/compat/posix -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/net -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys -I../Middlewares/Third_Party/LwIP/src/include/compat/stdc -I../Middlewares/Third_Party/LwIP/system/arch -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include" -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source" -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc" -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sample_azure_iot/sample_azure_iot.d" -MT"Core/Src/sample_azure_iot/sample_azure_iot.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sample_azure_iot/sample_azure_iot.o"
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Inc/logging_stack.h:82: warning: "SdkLog" redefined
+   82 |     #define SdkLog( string )    printf string
+      | 
+In file included from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Inc/config/demo_config.h:48: note: this is the location of the previous definition
+   48 |     #define SdkLog( message )    vLoggingPrintf message
+      | 
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvHandleCloudMessage':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:208:16: warning: field precision specifier '.*' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  208 |     LogInfo( ( "Cloud message payload : %.*s \r\n",
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  209 |                pxMessage->ulPayloadLength,
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:208:5: note: in expansion of macro 'LogInfo'
+  208 |     LogInfo( ( "Cloud message payload : %.*s \r\n",
+      |     ^~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:208:43: note: format string is defined here
+  208 |     LogInfo( ( "Cloud message payload : %.*s \r\n",
+      |                                         ~~^~
+      |                                           |
+      |                                           int
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvHandleCommand':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:220:16: warning: field precision specifier '.*' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  220 |     LogInfo( ( "Command payload : %.*s \r\n",
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  221 |                pxMessage->ulPayloadLength,
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:220:5: note: in expansion of macro 'LogInfo'
+  220 |     LogInfo( ( "Command payload : %.*s \r\n",
+      |     ^~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:220:37: note: format string is defined here
+  220 |     LogInfo( ( "Command payload : %.*s \r\n",
+      |                                   ~~^~
+      |                                     |
+      |                                     int
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvHandlePropertiesMessage':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:260:16: warning: field precision specifier '.*' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  260 |     LogInfo( ( "Property document payload : %.*s \r\n",
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  261 |                pxMessage->ulPayloadLength,
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:260:5: note: in expansion of macro 'LogInfo'
+  260 |     LogInfo( ( "Property document payload : %.*s \r\n",
+      |     ^~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:260:47: note: format string is defined here
+  260 |     LogInfo( ( "Property document payload : %.*s \r\n",
+      |                                             ~~^~
+      |                                               |
+      |                                               int
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvAzureDemoTask':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:331:25: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  331 |             LogError( ( "Failed on sample_dps_entry!: error code = 0x%08x\r\n", ulStatus ) );
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~
+      |                                                                                 |
+      |                                                                                 uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:331:13: note: in expansion of macro 'LogError'
+  331 |             LogError( ( "Failed on sample_dps_entry!: error code = 0x%08x\r\n", ulStatus ) );
+      |             ^~~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:331:73: note: format string is defined here
+  331 |             LogError( ( "Failed on sample_dps_entry!: error code = 0x%08x\r\n", ulStatus ) );
+      |                                                                      ~~~^
+      |                                                                         |
+      |                                                                         unsigned int
+      |                                                                      %08lx
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvConnectToServerWithBackoffRetries':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:596:20: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  596 |         LogInfo( ( "Creating a TLS connection to %s:%u.\r\n", pcHostName, port ) );
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~
+      |                                                                           |
+      |                                                                           uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:596:9: note: in expansion of macro 'LogInfo'
+  596 |         LogInfo( ( "Creating a TLS connection to %s:%u.\r\n", pcHostName, port ) );
+      |         ^~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:596:54: note: format string is defined here
+  596 |         LogInfo( ( "Creating a TLS connection to %s:%u.\r\n", pcHostName, port ) );
+      |                                                     ~^
+      |                                                      |
+      |                                                      unsigned int
+      |                                                     %lu
+In file included from ../Core/Inc/config/demo_config.h:8,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Inc/config/FreeRTOSConfig.h:130:27: warning: implicit declaration of function 'iMainRand32' [-Wimplicit-function-declaration]
+  130 | #define configRAND32()    iMainRand32()
+      |                           ^~~~~~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:611:85: note: in expansion of macro 'configRAND32'
+  611 |             xBackoffAlgStatus = BackoffAlgorithm_GetNextBackoff( &xReconnectParams, configRAND32(), &usNextRetryBackOff );
+      |                                                                                     ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "STM32F767ZI_Nucleo.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Newdevice\STM32F767ZI_Nucleo\STM32F767ZI_Nucleo\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F767ZI_Nucleo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F767ZI_Nucleo.elf
+ 
+arm-none-eabi-size   STM32F767ZI_Nucleo.elf 
+arm-none-eabi-objdump -h -S  STM32F767ZI_Nucleo.elf  > "STM32F767ZI_Nucleo.list"
+arm-none-eabi-objcopy  -O binary  STM32F767ZI_Nucleo.elf  "STM32F767ZI_Nucleo.bin"
+   text	   data	    bss	    dec	    hex	filename
+  24176	    124	  43796	  68096	  10a00	STM32F767ZI_Nucleo.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F767ZI_Nucleo.bin
+ 
+Finished building: STM32F767ZI_Nucleo.list
+ 
+16:48:40 **** Incremental Build of configuration Debug for project STM32F767ZI_Nucleo ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/sample_azure_iot/sample_azure_iot.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -I../LWIP/App -I../LWIP/Target -I../Middlewares/Third_Party/LwIP/src/include -I../Middlewares/Third_Party/LwIP/system -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../Middlewares/Third_Party/LwIP/src/include/netif/ppp -I../Middlewares/Third_Party/LwIP/src/include/lwip -I../Middlewares/Third_Party/LwIP/src/include/lwip/apps -I../Middlewares/Third_Party/LwIP/src/include/lwip/priv -I../Middlewares/Third_Party/LwIP/src/include/lwip/prot -I../Middlewares/Third_Party/LwIP/src/include/netif -I../Middlewares/Third_Party/LwIP/src/include/compat/posix -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/arpa -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/net -I../Middlewares/Third_Party/LwIP/src/include/compat/posix/sys -I../Middlewares/Third_Party/LwIP/src/include/compat/stdc -I../Middlewares/Third_Party/LwIP/system/arch -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include" -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source" -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc" -I"D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/src" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sample_azure_iot/sample_azure_iot.d" -MT"Core/Src/sample_azure_iot/sample_azure_iot.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sample_azure_iot/sample_azure_iot.o"
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Inc/logging_stack.h:82: warning: "SdkLog" redefined
+   82 |     #define SdkLog( string )    printf string
+      | 
+In file included from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Inc/config/demo_config.h:48: note: this is the location of the previous definition
+   48 |     #define SdkLog( message )    vLoggingPrintf message
+      | 
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvHandleCloudMessage':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:208:16: warning: field precision specifier '.*' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  208 |     LogInfo( ( "Cloud message payload : %.*s \r\n",
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  209 |                pxMessage->ulPayloadLength,
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:208:5: note: in expansion of macro 'LogInfo'
+  208 |     LogInfo( ( "Cloud message payload : %.*s \r\n",
+      |     ^~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:208:43: note: format string is defined here
+  208 |     LogInfo( ( "Cloud message payload : %.*s \r\n",
+      |                                         ~~^~
+      |                                           |
+      |                                           int
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvHandleCommand':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:220:16: warning: field precision specifier '.*' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  220 |     LogInfo( ( "Command payload : %.*s \r\n",
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  221 |                pxMessage->ulPayloadLength,
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:220:5: note: in expansion of macro 'LogInfo'
+  220 |     LogInfo( ( "Command payload : %.*s \r\n",
+      |     ^~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:220:37: note: format string is defined here
+  220 |     LogInfo( ( "Command payload : %.*s \r\n",
+      |                                   ~~^~
+      |                                     |
+      |                                     int
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvHandlePropertiesMessage':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:260:16: warning: field precision specifier '.*' expects argument of type 'int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  260 |     LogInfo( ( "Property document payload : %.*s \r\n",
+      |                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  261 |                pxMessage->ulPayloadLength,
+      |                ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                         |
+      |                         uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:260:5: note: in expansion of macro 'LogInfo'
+  260 |     LogInfo( ( "Property document payload : %.*s \r\n",
+      |     ^~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:260:47: note: format string is defined here
+  260 |     LogInfo( ( "Property document payload : %.*s \r\n",
+      |                                             ~~^~
+      |                                               |
+      |                                               int
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvAzureDemoTask':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:331:25: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  331 |             LogError( ( "Failed on sample_dps_entry!: error code = 0x%08x\r\n", ulStatus ) );
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~
+      |                                                                                 |
+      |                                                                                 uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:331:13: note: in expansion of macro 'LogError'
+  331 |             LogError( ( "Failed on sample_dps_entry!: error code = 0x%08x\r\n", ulStatus ) );
+      |             ^~~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:331:73: note: format string is defined here
+  331 |             LogError( ( "Failed on sample_dps_entry!: error code = 0x%08x\r\n", ulStatus ) );
+      |                                                                      ~~~^
+      |                                                                         |
+      |                                                                         unsigned int
+      |                                                                      %08lx
+In file included from ../Core/Inc/config/demo_config.h:51,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Src/sample_azure_iot/sample_azure_iot.c: In function 'prvConnectToServerWithBackoffRetries':
+../Core/Src/sample_azure_iot/sample_azure_iot.c:596:20: warning: format '%u' expects argument of type 'unsigned int', but argument 3 has type 'uint32_t' {aka 'long unsigned int'} [-Wformat=]
+  596 |         LogInfo( ( "Creating a TLS connection to %s:%u.\r\n", pcHostName, port ) );
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~              ~~~~
+      |                                                                           |
+      |                                                                           uint32_t {aka long unsigned int}
+../Core/Inc/logging_stack.h:82:40: note: in definition of macro 'SdkLog'
+   82 |     #define SdkLog( string )    printf string
+      |                                        ^~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:596:9: note: in expansion of macro 'LogInfo'
+  596 |         LogInfo( ( "Creating a TLS connection to %s:%u.\r\n", pcHostName, port ) );
+      |         ^~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:596:54: note: format string is defined here
+  596 |         LogInfo( ( "Creating a TLS connection to %s:%u.\r\n", pcHostName, port ) );
+      |                                                     ~^
+      |                                                      |
+      |                                                      unsigned int
+      |                                                     %lu
+In file included from ../Core/Inc/config/demo_config.h:8,
+                 from ../Core/Src/sample_azure_iot/sample_azure_iot.c:9:
+../Core/Inc/config/FreeRTOSConfig.h:130:27: warning: implicit declaration of function 'iMainRand32' [-Wimplicit-function-declaration]
+  130 | #define configRAND32()    iMainRand32()
+      |                           ^~~~~~~~~~~
+../Core/Src/sample_azure_iot/sample_azure_iot.c:611:85: note: in expansion of macro 'configRAND32'
+  611 |             xBackoffAlgStatus = BackoffAlgorithm_GetNextBackoff( &xReconnectParams, configRAND32(), &usNextRetryBackOff );
+      |                                                                                     ^~~~~~~~~~~~
+arm-none-eabi-gcc -o "STM32F767ZI_Nucleo.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\Newdevice\STM32F767ZI_Nucleo\STM32F767ZI_Nucleo\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F767ZI_Nucleo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: STM32F767ZI_Nucleo.elf
+ 
+arm-none-eabi-size   STM32F767ZI_Nucleo.elf 
+arm-none-eabi-objdump -h -S  STM32F767ZI_Nucleo.elf  > "STM32F767ZI_Nucleo.list"
+arm-none-eabi-objcopy  -O binary  STM32F767ZI_Nucleo.elf  "STM32F767ZI_Nucleo.bin"
+   text	   data	    bss	    dec	    hex	filename
+  24176	    124	  43796	  68096	  10a00	STM32F767ZI_Nucleo.elf
+Finished building: default.size.stdout
+ 
+Finished building: STM32F767ZI_Nucleo.bin
+ 
+Finished building: STM32F767ZI_Nucleo.list
+ 

@@ -142,7 +142,7 @@ int main(void)
 {
  /* Perform any hardware initialization that does not require the RTOS to be * running.  */
 
-	printf("Welcome to Demo");
+	//printf("PRV Misc Initialization started");
 
 	LogInfo( ( "PRV Misc Initialization started"));
 

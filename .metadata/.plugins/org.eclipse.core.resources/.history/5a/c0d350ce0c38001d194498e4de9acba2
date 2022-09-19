@@ -635,7 +635,7 @@ void vStartDemoTask( void )
 {
 	printf("Entered into StartDemoTask");
 	LogInfo( ( "PRV Misc Initialization started"));
-	configPRINTF( ( "---------Inside STARTING DEMO---------\r\n" ) );
+	configPRINTF( ( "---------STARTING DEMO---------\r\n" ) );
 
     /* This example uses a single application task, which in turn is used to
      * connect, subscribe, publish, unsubscribe and disconnect from the IoT Hub */
