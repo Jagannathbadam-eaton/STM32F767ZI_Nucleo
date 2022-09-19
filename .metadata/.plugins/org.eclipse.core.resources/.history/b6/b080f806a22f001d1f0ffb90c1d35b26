@@ -1,3 +1,0 @@
-/* lhash.h for openSSL */
-
-#include "../../../../../../External/FreeRTOS-Plus/ThirdParty/wolfSSL/wolfssl/openssl/lhash.h"

@@ -1,8 +1,0 @@
-#ifndef _USARTPUT_HAR_H
-#define _USARTPUT_HAR_H
-
-#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/Types.h"
-
-void Usart_PutChar(char data);
-
-#endif // _USARTPUT_HAR_H

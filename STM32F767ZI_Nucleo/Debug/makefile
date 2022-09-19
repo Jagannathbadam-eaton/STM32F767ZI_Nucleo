@@ -82,8 +82,8 @@ all: main-build
 main-build: STM32F767ZI_Nucleo.elf secondary-outputs
 
 # Tool invocations
-STM32F767ZI_Nucleo.elf STM32F767ZI_Nucleo.map: $(OBJS) $(USER_OBJS) D:\ms\Eaton\STM32\STM32F767ZI_Nucleo\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32F767ZI_Nucleo.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\ms\Eaton\STM32\STM32F767ZI_Nucleo\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F767ZI_Nucleo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32F767ZI_Nucleo.elf STM32F767ZI_Nucleo.map: $(OBJS) $(USER_OBJS) D:\Newdevice\STM32F767ZI_Nucleo\STM32F767ZI_Nucleo\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32F767ZI_Nucleo.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\Newdevice\STM32F767ZI_Nucleo\STM32F767ZI_Nucleo\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F767ZI_Nucleo.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

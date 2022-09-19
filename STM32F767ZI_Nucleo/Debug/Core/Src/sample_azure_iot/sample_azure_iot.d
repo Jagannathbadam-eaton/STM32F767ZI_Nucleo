@@ -15,34 +15,34 @@ Core/Src/sample_azure_iot/sample_azure_iot.o: \
  ../Core/Inc/azure/azure_iot_result.h ../Core/Inc/azure/_az_cfg_prefix.h \
  ../Core/Inc/azure/_az_cfg.h ../Core/Inc/azure/_az_cfg_suffix.h \
  ../Core/Inc/azure/azure_iot_message.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client_properties.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_json.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_result.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_prefix.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_suffix.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_span.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_common.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_log.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client_properties.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_json.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_result.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_prefix.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_suffix.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_span.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_common.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_log.h \
  ../Core/Inc/ports/coreMQTT/azure_iot_mqtt_port.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt_config_defaults.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt_serializer.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/interface/transport_interface.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt_config_defaults.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt_serializer.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/interface/transport_interface.h \
  ../Core/Inc/interface/azure_iot_transport_interface.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/az_core.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_base64.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_config.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_context.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_credentials.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_http_transport.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_http.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_platform.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_precondition.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_version.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/az_core.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_base64.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_config.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_context.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_credentials.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_http_transport.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_http.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_platform.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_precondition.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_version.h \
  ../Core/Inc/azure/azure_iot_provisioning_client.h \
- D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_provisioning_client.h \
+ D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_provisioning_client.h \
  ../Core/Inc/backoff_algorithm.h ../Core/Inc/transport_tls_socket.h \
  ../Core/Inc/interface/azure_iot_transport_interface.h \
  ../Core/Inc/sockets_wrapper.h \
@@ -70,34 +70,34 @@ Core/Src/sample_azure_iot/sample_azure_iot.o: \
 ../Core/Inc/azure/_az_cfg.h:
 ../Core/Inc/azure/_az_cfg_suffix.h:
 ../Core/Inc/azure/azure_iot_message.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client_properties.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_json.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_result.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_prefix.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_suffix.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_span.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_common.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_log.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client_properties.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_json.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_result.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_prefix.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/_az_cfg_suffix.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_span.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_hub_client.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_common.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_log.h:
 ../Core/Inc/ports/coreMQTT/azure_iot_mqtt_port.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt_config_defaults.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt_serializer.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/interface/transport_interface.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt_config_defaults.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/include/core_mqtt_serializer.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/coreMQTT/source/interface/transport_interface.h:
 ../Core/Inc/interface/azure_iot_transport_interface.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/az_core.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_base64.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_config.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_context.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_credentials.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_http_transport.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_http.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_platform.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_precondition.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_version.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/az_core.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_base64.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_config.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_context.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_credentials.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_http_transport.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_http.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_platform.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_precondition.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/core/az_version.h:
 ../Core/Inc/azure/azure_iot_provisioning_client.h:
-D:/ms/Eaton/STM32/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_provisioning_client.h:
+D:/Newdevice/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo/Middlewares/Third_Party/azure-sdk-for-c/sdk/inc/azure/iot/az_iot_provisioning_client.h:
 ../Core/Inc/backoff_algorithm.h:
 ../Core/Inc/transport_tls_socket.h:
 ../Core/Inc/interface/azure_iot_transport_interface.h:

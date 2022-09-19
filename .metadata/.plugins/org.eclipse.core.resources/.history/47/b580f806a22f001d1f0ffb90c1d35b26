@@ -1,3 +1,0 @@
-/* opensslv.h compatibility */
-
-#include "../../../../../../External/FreeRTOS-Plus/ThirdParty/wolfSSL/wolfssl/openssl/opensslv.h"

@@ -1,3 +1,0 @@
-/* ec25519.h  */
-
-#include "../../../../../../External/FreeRTOS-Plus/ThirdParty/wolfSSL/wolfssl/openssl/ec25519.h"

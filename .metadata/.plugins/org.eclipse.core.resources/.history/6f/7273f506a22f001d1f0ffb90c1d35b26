@@ -1,4 +1,0 @@
-/* dh.h for openSSL */
-
-
-#include "../../../../../../External/FreeRTOS-Plus/ThirdParty/wolfSSL/wolfssl/openssl/dh.h"

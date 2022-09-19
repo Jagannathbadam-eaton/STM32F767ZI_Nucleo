@@ -1,4 +1,0 @@
-/* ARP has been moved to core/ipv4, provide this #include for compatibility only */
-#include "../../../../../External/LwIP/src/include/lwip/etharp.h"
-
-#include "../../../../../External/LwIP/src/include/netif/ethernet.h"

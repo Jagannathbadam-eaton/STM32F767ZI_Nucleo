@@ -1,8 +1,0 @@
-#ifndef _MODEL_H
-#define _MODEL_H
-
-#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/Types.h"
-
-void Model_Init(void);
-
-#endif // _MODEL_H

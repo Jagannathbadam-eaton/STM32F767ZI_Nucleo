@@ -1,8 +1,0 @@
-#ifndef _TIMERMODEL_H
-#define _TIMERMODEL_H
-
-#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/temp_sensor/src/Types.h"
-
-void TimerModel_UpdateTime(uint32 systemTime);
-
-#endif // _TIMERMODEL_H

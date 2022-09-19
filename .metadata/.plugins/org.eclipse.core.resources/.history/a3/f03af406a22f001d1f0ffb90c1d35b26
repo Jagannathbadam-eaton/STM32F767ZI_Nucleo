@@ -1,3 +1,0 @@
-/* asn1.h for openssl */
-
-#include "../../../../../../External/FreeRTOS-Plus/ThirdParty/wolfSSL/wolfssl/openssl/asn1.h"

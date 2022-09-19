@@ -1,5 +1,0 @@
-#include "../../../../../../../External/FreeRTOS-Plus/Test/CMock/examples/make_example/src/foo.h"
-
-void foo_init(void)
-{
-}
