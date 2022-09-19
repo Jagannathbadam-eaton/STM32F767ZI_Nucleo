@@ -6,6 +6,7 @@ Middlewares/Third_Party/LwIP/system/OS/sys_arch.o: \
  ../Middlewares/Third_Party/LwIP/system/arch/cpu.h \
  ../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h \
  ../LWIP/Target/lwipopts.h ../Core/Inc/main.h \
+ ../Core/Inc/logging_levels.h ../Core/Inc/logging_stack.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  ../Core/Inc/stm32f7xx_hal_conf.h \
  ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -72,6 +73,8 @@ Middlewares/Third_Party/LwIP/system/OS/sys_arch.o: \
 ../Middlewares/Third_Party/LwIP/src/include/lwip/opt.h:
 ../LWIP/Target/lwipopts.h:
 ../Core/Inc/main.h:
+../Core/Inc/logging_levels.h:
+../Core/Inc/logging_stack.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 ../Core/Inc/stm32f7xx_hal_conf.h:
 ../Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h:
