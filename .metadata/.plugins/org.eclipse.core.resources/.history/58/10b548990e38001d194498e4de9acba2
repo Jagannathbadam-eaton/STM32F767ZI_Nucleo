@@ -633,7 +633,7 @@ static uint32_t prvConnectToServerWithBackoffRetries( const char * pcHostName,
  */
 void vStartDemoTask( void )
 {
-
+	printf("Entered into StartDemoTask");
 	LogInfo( ( "PRV Misc Initialization started"));
 	configPRINTF( ( "---------Inside STARTING DEMO---------\r\n" ) );
 
